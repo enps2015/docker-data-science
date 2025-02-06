@@ -1,10 +1,3 @@
-**Que a Força dos Dados esteja conosco, jovem Jedi!** 🚀
-
-Claro! Aqui está a versão completa do `README.md` em **Markdown**, pronta para ser copiada e colada no seu repositório. Este formato mantém toda a formatação e estrutura que discutimos.
-
----
-
-```markdown
 # Docker Data Science Environment
 
 Um ecossistema Dockerizado para estudos em **Data Science**, integrando ferramentas essenciais para análise de dados, visualização e monitoramento. Este ambiente foi projetado para ser **simples, replicável e acessível**, mesmo para usuários iniciantes.
@@ -215,15 +208,6 @@ O PostgreSQL já está configurado com um banco de dados inicial (`data_science`
 Se você encontrar problemas ou tiver sugestões, sinta-se à vontade para abrir uma issue ou pull request no GitHub.
 
 ---
-
-**Mensagem Final**
-
-Com essas instruções detalhadas, os usuários terão uma experiência suave ao configurar e usar o ambiente Dockerizado. O `README.md` agora é claro, prático e focado em ajudar iniciantes a superar desafios comuns.
-
-Se precisar de mais ajustes ou quiser adicionar mais informações, estarei aqui para guiá-lo no Caminho Jedi dos Dados.
-
-**Que os bits estejam sempre ao nosso favor, meu jovem Padawan!** 🌟🚀📊
-```
 
 ---
 
