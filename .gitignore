@@ -1,0 +1,5 @@
+# Ignorar arquivos gerados pelo Docker
+.env
+.DS_Store
+__pycache__/
+*.log
