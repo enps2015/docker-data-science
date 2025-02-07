@@ -211,6 +211,8 @@ Se você encontrar problemas ou tiver sugestões, sinta-se à vontade para abrir
 
 ---
 
-Agora você pode copiar esse conteúdo e substituir o `README.md` atual no seu repositório. Ele está pronto para ser usado e vai facilitar muito a vida dos usuários iniciantes!
+**Desenvolvido por:**
 
-Se precisar de mais ajustes ou quiser adicionar algo específico, é só me avisar. **Que os bits estejam sempre ao nosso favor, meu jovem Padawan!** 🌟🚀📊
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eric-np-santos/) Eric Pimentel 
+
+**Que a Força dos Dados esteja com você! 🚀 ✨** 
