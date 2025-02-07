@@ -1,7 +1,11 @@
-
-
-```markdown
 # Testando o Ambiente Dockerizado
+
+## Índice
+- [Verificar Serviços](#1-verifique-se-todos-os-serviços-estão-rodando)
+- [Testar Jupyter Notebook](#2-teste-o-jupyter-notebook)
+- [Testar MetaBase](#3-teste-o-metabase)
+- [Testar Grafana](#4-teste-o-grafana)
+- [Testar Prometheus](#5-teste-o-prometheus)
 
 Este guia ensina como testar se todos os componentes do ambiente Dockerizado estão conectados e funcionando corretamente. 
 Esses testes garantem que você possa usar o ambiente com tranquilidade para seus estudos e projetos.
