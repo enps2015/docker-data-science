@@ -1,5 +1,9 @@
-# Ignorar arquivos gerados pelo Docker
-.env
-.DS_Store
-__pycache__/
+# Ignorar diretórios de volumes
+/volumes/
+
+# Ignorar arquivos temporários
 *.log
+*.tmp
+
+# Ignorar arquivos de ambiente
+.env
