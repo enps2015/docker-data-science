@@ -1,3 +1,6 @@
+
+![logo](https://github.com/user-attachments/assets/bc5c4d3e-61ab-40c8-8b7f-315a38dd88db)
+
 # Docker Data Science Environment
 
 Um ecossistema Dockerizado para estudos em **Data Science**, integrando ferramentas essenciais para análise de dados, visualização e monitoramento. Este ambiente foi projetado para ser **simples, replicável e acessível**, mesmo para usuários iniciantes.
@@ -61,6 +64,40 @@ Após iniciar os serviços, você pode acessar as interfaces no navegador:
 - **Prometheus**: [http://localhost:9090](http://localhost:9090)
 
 ---
+
+## Setup Automatizado
+
+Para facilitar a configuração inicial do ambiente, criei um script automatizado (`setup.sh`) que verifica as dependências necessárias (Docker e Docker Compose), clona o repositório (se necessário) e inicia todos os serviços.
+
+### Por que usar o script?
+- **Simplicidade**: O script elimina a necessidade de executar comandos manuais.
+- **Confiabilidade**: Ele garante que todas as etapas sejam seguidas corretamente.
+- **Rapidez**: Em poucos minutos, você terá o ambiente pronto para uso.
+
+### Como executar o script
+
+1. Certifique-se de que o `git`, `docker` e `docker-compose` estão instalados na sua máquina.
+2. Faça o download do script:
+   ```bash
+   wget https://raw.githubusercontent.com/enps2015/docker-data-science/main/setup.sh
+   ```
+3. Torne o script executável:
+   ```bash
+   chmod +x setup.sh
+   ```
+4. Execute o script:
+   ```bash
+   ./setup.sh
+   ```
+
+Após a execução, o ambiente estará disponível nos seguintes endereços:
+- **Jupyter Notebook**: [http://localhost:8888](http://localhost:8888)
+- **MetaBase**: [http://localhost:3000](http://localhost:3000)
+- **Grafana**: [http://localhost:3001](http://localhost:3001)
+- **Prometheus**: [http://localhost:9090](http://localhost:9090)
+
+
+___
 
 ## Configuração Passo a Passo
 
@@ -216,11 +253,46 @@ ___
 
 ---
 
+## Screenshots do Ambiente
+
+Abaixo estão algumas capturas
+ de tela das interfaces disponíveis no ambiente Dockerizado. Essas imagens dão uma ideia visual de como cada ferramenta funciona.
+
+### Jupyter Notebook
+
+![captura02](https://github.com/user-attachments/assets/cdedc6e3-bf67-4c37-a200-d6710fa70fd4)
+
+
+_Uma interface interativa para análise de dados e machine learning._
+
+
+### MetaBase
+
+![captura03](https://github.com/user-attachments/assets/e73f2bbb-9054-46ac-b4bb-45169b39fad9)
+
+_Um dashboard intuitivo para visualização de dados do PostgreSQL._
+
+
+### Grafana
+
+![captura04](https://github.com/user-attachments/assets/0006e5b0-8195-464d-9902-9c04119d0c9d)
+
+_Gráficos dinâmicos para monitoramento e observabilidade._
+
+### Prometheus
+
+![captura05](https://github.com/user-attachments/assets/9678e432-5e25-4630-80a4-dc6bd5997e58)
+
+_Uma interface para consultar métricas coletadas pelo sistema._
+
+---
+
+**Observação**: Para acessar essas interfaces, siga as instruções no início deste documento.
+
+
 ## Contribuições e Feedback
 
 Se você encontrar problemas ou tiver sugestões, sinta-se à vontade para abrir uma issue ou pull request no GitHub.
-
----
 
 ---
 
