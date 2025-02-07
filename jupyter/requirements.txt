@@ -1,0 +1,57 @@
+# Bibliotecas para Tratamento de Dados
+numpy>=1.21.0                     # Manipulação de arrays e cálculos numéricos
+pandas>=1.3.0                     # Manipulação e análise de dados em tabelas
+openpyxl                          # Leitura e escrita de arquivos Excel (.xlsx)
+xlrd                              # Leitura de arquivos Excel (.xls)
+sqlalchemy                        # Integração com bancos de dados SQL
+psycopg2-binary                   # Conexão com PostgreSQL
+mysql-connector-python            # Conexão com MySQL/MariaDB
+pymongo                           # Conexão com MongoDB
+
+# Bibliotecas para Visualização de Dados
+matplotlib>=3.4.0                 # Geração de gráficos e visualizações básicas
+seaborn>=0.11.0                   # Visualizações estatísticas avançadas
+plotly>=5.0.0                     # Gráficos interativos
+bokeh>=2.3.0                      # Visualizações interativas para web
+folium                            # Mapas interativos (geolocalização)
+
+# Bibliotecas para Machine Learning
+scikit-learn>=0.24.0              # Ferramentas para machine learning
+tensorflow>=2.5.0                 # Deep learning (Google)
+torch>=1.9.0                      # Deep learning (PyTorch)
+xgboost                           # Gradient Boosting para machine learning
+lightgbm                          # Otimização de modelos baseados em árvores
+catboost                          # Outro framework de boosting eficiente
+imbalanced-learn                  # Ferramentas para lidar com classes desbalanceadas
+
+# Bibliotecas para Processamento de Linguagem Natural (NLP)
+nltk                              # Ferramentas para processamento de texto
+spacy                             # Processamento de linguagem natural avançado
+transformers                      # Modelos de linguagem pré-treinados (Hugging Face)
+
+# Bibliotecas para Web Scraping e APIs
+requests                          # Requisições HTTP para APIs
+beautifulsoup4                    # Extração de dados de páginas HTML
+scrapy                            # Framework para web scraping
+selenium                          # Automação de navegadores para scraping dinâmico
+
+# Bibliotecas para Ciência de Dados Avançada
+statsmodels                       # Modelagem estatística avançada
+networkx                          # Análise de redes e grafos
+dask                              # Computação paralela e distribuída
+modin                             # Alternativa ao pandas para grandes datasets
+pyarrow                           # Manipulação de dados em formato Arrow
+
+# Ferramentas de Deploy e Monitoramento
+mlflow                            # Gerenciamento de experimentos de ML
+boto3                             # Integração com AWS (S3, EC2, etc.)
+flask                             # Criação de APIs RESTful
+fastapi                           # Framework moderno para APIs RESTful
+streamlit                         # Criação de dashboards interativos
+
+# Outras Ferramentas Úteis
+jupyterlab                        # Interface avançada para Jupyter
+ipywidgets                        # Widgets interativos no Jupyter Notebook
+tqdm                              # Barra de progresso para loops
+pytest                            # Testes automatizados
+black                             # Formatação de código Python
