@@ -79,7 +79,7 @@ Para facilitar a configuração inicial do ambiente, criei um script automatizad
 1. Certifique-se de que o `git`, `docker` e `docker-compose` estão instalados na sua máquina.
 2. Faça o download do script:
    ```bash
-   wget https://raw.githubusercontent.com/enps2015/docker-data-science/main/setup.sh
+   wget https://github.com/enps2015/docker-data-science/blob/master/setup.sh
    ```
 3. Torne o script executável:
    ```bash
