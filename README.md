@@ -170,6 +170,19 @@ O PostgreSQL já está configurado com um banco de dados inicial (`data_science`
 
 ---
 
+## Testando o Ambiente
+
+Para garantir que todos os componentes do ambiente estão conectados e funcionando corretamente, criei um guia prático com instruções passo a passo. 
+Este guia inclui testes para verificar as conexões entre o Jupyter Notebook, PostgreSQL, MetaBase, Grafana e Prometheus.
+
+Se você é novo no projeto ou quer ter certeza de que tudo está configurado corretamente, recomendamos que siga o tutorial disponível no arquivo [TESTES.md](TESTES.md).
+
+Os testes são simples e fáceis de realizar, mesmo para iniciantes. Eles garantem que você possa explorar o ambiente com tranquilidade e confiança.
+
+**Convide seus neurônios a fazer os testes!** 😉
+
+___
+
 ## Resolução de Problemas
 
 ### **1. Jupyter Notebook**
